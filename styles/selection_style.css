@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(33, 33, 33, 1);
+}               
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(33, 33, 33, 1);
+    gap: 5rem;
+}
+
+.frame_one{
+    background-color: #302c2c;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 13rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.frame_two{
+    background-color: #302c2c;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 13rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}           
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: rgba(62, 194, 85, 1);
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding-left: 1rem;
+
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(62, 194, 85, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer; 
+    width: 10rem;
+}
+
+button:hover{
+    background-color: rgba(62, 194, 85, 1);
+    color: #fff;    
+}
+
+#open_one{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.5rem;
+    margin-top: 3.6rem;
+}
+
+#open_two{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.5rem;
+    margin-top: 0.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a:hover{
+    color: #fff;
+}

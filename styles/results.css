@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(33, 33, 33, 1);
+}
+
+p{
+    color: rgba(62, 194, 85, 1);
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}
